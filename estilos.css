@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*para que se altere su
+     tamaño que permanezca las medidas*/ 
+}
+
+#encabezado{
+    display: flex;/*lo pone al lado*/
+    justify-content: space-between;/*lo pone en un elemento a la 
+    derecha y el otro ala izquierda*/
+    align-items: center; /*lo centra*/
+    background: #F5B38F  ;
+    padding: 10px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#logo-baner{
+    height: 120px;
+    display: flex;
+    text-decoration: none;
+    color: #F5B38F;
+    align-items: center;
+}
+
+#imglogo{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+#text-banner{
+    margin: 0 10px;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0a0a0a;
+}
+
+#nav{
+    
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#nav li{
+    display: inline-block;
+}
+
+#nav li a{
+    text-decoration: none;
+    color: #080808;
+    margin: 0 12px;
+}
+
+#nav li a:hover{
+    color: #e25d15;
+    
+}
+
+#secccion-articulo{
+    width: 80%;
+
+    margin: 20px auto;/*poner el margen de o un limite en los lados automatico*/
+}
+
+#titulo{
+    font-size: 70px;
+    text-align: center;/*centrar el titulo principal*/
+}
+
+#contenedor{
+   
+
+    margin-top: 150px;
+}
+
+
+

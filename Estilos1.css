@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    font-family: sans-serif;
+
+    /*Estableces fondo con degradado y altura para todo el body*/
+    background: linear-gradient(125deg, #F46333, #7A7A78 );
+    height: 100vh;
+
+    /*contenedor con flex baz el contenedor en el body*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor{
+    background: blanchedalmond;
+    border-radius: 10px;
+    width: 400px;
+}
+
+h1{
+    color: #F46333;
+    text-align: center;
+    border-bottom: 1px solid silver;
+    padding: 0 0 20px 0;
+}
+
+#contenedor form{
+    padding: 0 40px;
+}
+
+.ingreso{
+    margin: 20px;
+    border-bottom: 2px solid silver;
+}
+
+.ingreso .cuadrotex{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+   
+}
+
+#recordar{
+    margin: 5px 0 20px 5px;
+}
+
+#boton{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #F46333;
+    background: #F46333;
+    border-radius: 7px;
+    font-size: 18PX;
+    color: #f8f8f0;
+    cursor: pointer;
+}
+
+#registrarse{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+#registrarse a{
+    color: blue;
+    text-decoration: none;
+}
+
+#registrarse a:hover{
+    text-decoration: underline;
+}
+
+#logo-em{
+    height: 100px;
+    width: 100px;
+    margin: 0 100px;
+}
+
+
